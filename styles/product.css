@@ -1,0 +1,242 @@
+.Navigation{
+    background-color: white;
+}
+
+.navbar{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.navbar-brand{
+    font-size: 2rem !important;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.nav-link{
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    font-size: 1.15rem !important;
+    color: #027F7B !important;
+}
+
+.nav-link:hover{
+    background-color: #027F7B;
+    color: white !important;
+    border-radius: 29px ;
+}
+
+
+.introComp{
+    background-color: #027F7BA6;
+    height: 100%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.introtext{
+    padding: auto auto;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+
+.introtext h1{
+    font-family: "Roboto Serif";
+    font-weight: 400;
+    padding-bottom: 3%;
+}
+
+.introtext p{
+    font-family: "Roboto Serif";
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding-bottom: 10%;
+}
+
+.case{
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.case h1{
+    padding-bottom: 5%;
+    font-family: "Roboto Serif";
+    font-weight: 600;
+    color: #086F6B;
+}
+
+.case p{
+    text-align: left;
+    font-family: "Roboto Serif";
+    font-weight: 400;
+    color: #027F7B;
+    font-size: 1.5rem;
+}
+
+.case #carouselExampleIndicators{
+    position: relative;
+    background-color: #8CC0BF;
+    width: 50%;
+    height: 100%;
+    left: 25%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.case #carouselExampleIndicators h2{
+    color: white;
+    padding-bottom: 2%;
+}
+
+.s1 img{
+    height: 60%;
+    width: 60%;
+    margin-top: 20%;
+    padding-bottom: 15%;
+}
+
+.s1 h3{
+    color: #027F7B;
+    font-family: "Roboto Serif";
+    padding-bottom: 2%;
+}
+
+.s1 p{
+    color: white;
+    text-align: center;
+    font-family: "Roboto Serif";
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.Speakers{
+    background-color: #8CC0BF;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.Speakers h1{
+    padding-bottom: 5%;
+    color: white;
+    font-family: "Roboto Serif";
+    font-size: 3rem;
+}
+
+.Speakers h2{
+    color: white;
+    font-family: "Roboto Serif";
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.Speakers h3{
+    color: white;
+    font-family: "Roboto Serif";
+    padding-bottom: 3%;
+}
+
+.cardlink{
+    justify-content: center;
+}
+
+.linksection{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.linksection h1{
+    padding-bottom: 5%;
+    color: #027F7B;
+    font-family: "Roboto Serif";
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+
+/* src/Footer.css */
+.footer {
+    background-color: #027F7B;
+    color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 321px;
+    padding: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-icons img {
+    width: 60px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 800px; /* Adjust as needed */
+  }
+  
+  .contact-logo img {
+    width: 300px;
+    height: 178.84px;
+  }
+  
+  .vertical-line {
+    width: 1px;
+    height: 100px; /* Adjust as needed */
+    background-color: white;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-details div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+  }
+  
+  .contact-details img {
+    width: 20px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .footer-copyright {
+    width: 1440px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    background-color: rgb(93, 157, 156);
+  }
+  

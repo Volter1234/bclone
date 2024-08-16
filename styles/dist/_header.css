@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+.header {
+  padding: 0;
+  height: 10rem;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-logo img {
+  height: 10rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 901px;
+  height: 60px;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.nav-links li {
+  margin: 0 10px;
+}
+.nav-links a {
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 0.75rem 0.75rem;
+}
+
+ul :hover {
+  border-radius: 25px;
+}
+
+.light.header {
+  background-color: #fff;
+}
+.light .nav-container {
+  color: #027F7B;
+  background-color: #fff;
+}
+.light .nav-links a {
+  color: #027F7B;
+}
+.light ul :hover {
+  color: #fff;
+  background-color: #027F7B;
+}
+
+.colour.header {
+  background-color: #027F7B;
+  opacity: 65%;
+}
+.colour .nav-container {
+  color: #fff;
+}
+.colour .nav-links a {
+  color: #fff;
+}
+.colour ul :hover {
+  color: #027F7B;
+  background-color: #fff;
+}

@@ -1,31 +1,36 @@
-.Navigation{
+.Navigation {
     background-color: white;
 }
 
-.navbar{
+.navbar {
     margin-right: 5%;
     margin-left: 5%;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 2rem !important;
 }
 
-.navbar-nav{
+.navbar-nav {
     margin-left: auto;
 }
 
-.nav-link{
+.nav-link {
     padding-right: 1rem !important;
     padding-left: 1rem !important;
     font-size: 1.15rem !important;
     color: #027F7B !important;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     background-color: #027F7B;
     color: white !important;
-    border-radius: 29px ;
+    border-radius: 29px;
+}
+
+.navbar-toggler {
+    border: none;
+    color: black;
 }
 
 
@@ -180,83 +185,149 @@
     padding-bottom: 5%;
 }
 
-/* src/Footer.css */
-.footer {
-    background-color: #027F7B;
+
+
+footer {
+    background-color: #347b7b; /* Main footer background color */
     color: white;
-    padding: 0;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+}
+
+.flex {
     display: flex;
-    flex-direction: column;
     align-items: center;
-  }
-  
-  .footer-social-media {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 1440px;
-    height: 321px;
-    padding: 20px;
-  }
-  
-  .social-icons {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .social-icons a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .social-icons img {
-    width: 60px; /* Adjust as needed */
-    height: auto;
-  }
-  
-  .footer-contact {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    width: 800px; /* Adjust as needed */
-  }
-  
-  .contact-logo img {
-    width: 300px;
-    height: 178.84px;
-  }
-  
-  .vertical-line {
-    width: 1px;
-    height: 100px; /* Adjust as needed */
-    background-color: white;
-  }
-  
-  .contact-details {
+}
+
+.flex-col {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-  }
-  
-  .contact-details div {
+}
+
+.icons a {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
+
+.navigations {
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: 1em;
-  }
-  
-  .contact-details img {
-    width: 20px; /* Adjust as needed */
-    height: auto;
-  }
-  
-  .footer-copyright {
-    width: 1440px;
-    height: 35px;
+}
+
+.navigations img.footer-logo {
+    width: 300px;
+    height: 300px;
+    margin-right: 10%;
+}
+
+
+.contacts p {
+    margin: 5px 0;
+}
+
+.contacts img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.con{
     display: flex;
+    align-items: center;
+}
+/* End of footer */
+.end {
     justify-content: center;
-    align-items: center;
-    font-size: 0.9em;
-    background-color: rgb(93, 157, 156);
-  }
+    background-color: #8CC0BF;
+    width: 100%;
+    color: white;
+    font-size: 1.25rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .lastdiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons {
+        margin-right: 10%;
+    }
+
+    .navigations {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigations img.footer-logo {
+        width: 200px;
+        height: 200px;
+        margin-left: 3%;
+    }
+
+    .navigations img[alt=""] {
+        display: none;
+    }
+
+    .contacts {
+        align-items: center;
+    }
+
+    .contacts p {
+        text-align: center;
+    }
+    .contacts img {
+        width: 30px;
+        height: 30px;
+        margin-left: 5%;
+    }
+
+    .end {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icons{
+        margin-right: 10%;
+    }
+
+    .navigations img.footer-logo {
+        width: 200px;
+        height: 200px;
+        margin-left: 3%;
+    }
+
+    .contacts img {
+        width: 30px;
+        height: 30px;
+        margin-left: 5%;
+    }
+
+    .contacts p {
+        font-size: 14px;
+    }
+}
+
+
+
   
